@@ -10,13 +10,17 @@
     <header id="head">
         <h1>Feedback Contest Form</h1>
         <p>Please share your feedback regarding the event</p>
+
+        <label for="name" > Name :
+             <input type="text" placeholder="Your name">
+        </label>
+        <label for="email"> Email :
+            <input type="email" placeholder="Your email">
+        </label>
     </header>
 
     <main>
-       <section>
         <form>
-            <p>Which things happened in the contest, please share below:</p>
-            <textarea></textarea>
 
            <section>
             <p>Which event did you attend?</p>
@@ -28,8 +32,160 @@
                     <option value="Puppet show">Puppet show</option>
                 </select>
            </section>
-        </form>
-       </section>
+
+           <section>
+            <p>What was the primary reason you chose to attend this contest?</p>
+                <input type="radio" id="r1" name="r">
+                <label for="r1">Relevance to work</label>
+                <input type="radio" id="r2" name="r">
+                <label for="r2">Entertainment</label>
+                <input type="radio" id="r3" name="r">
+                <label for="r3">Personal enrichment</label>
+                <input type="radio" id="r4" name="r">
+                <label for="r4">Other</label>
+           </section>
+
+           <section>
+            <p>Please rate your agreement level with the following statements about the presentation.</p>
+            <table>
+               <tr>
+                    <th  style="border: none;"></th>
+                    <th>Strongly disagree</th>
+                    <th>Disagree</th>
+                    <th>Neutral</th>
+                    <th>Agree</th>
+                    <th>Strongly agree</th>
+               </tr>
+
+               <tr>
+                <td>I have known a lot about the presentation topic before.</td>
+                <td>
+                    <input type="radio" id="a1" name="a">
+                    <label for="a1"></label> 
+                </td>
+                <td>
+                    <input type="radio" id="a2" name="a">
+                    <label for="a2"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a3" name="a">
+                    <label for="a3"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a4" name="a">
+                    <label for="a4"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a5" name="a">
+                    <label for="a5"></label>
+                </td>
+               </tr>
+
+               <tr>
+                <td>My time was well served by the presentation.</td>
+                <td>
+                    <input type="radio" id="a1" name="a">
+                    <label for="a1"></label> 
+                </td>
+                <td>
+                    <input type="radio" id="a2" name="a">
+                    <label for="a2"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a3" name="a">
+                    <label for="a3"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a4" name="a">
+                    <label for="a4"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a5" name="a">
+                    <label for="a5"></label>
+                </td>
+               </tr>
+
+               <tr>
+                <td>The presentation was enjoyable.</td>
+                <td>
+                    <input type="radio" id="a1" name="a">
+                    <label for="a1"></label> 
+                </td>
+                <td>
+                    <input type="radio" id="a2" name="a">
+                    <label for="a2"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a3" name="a">
+                    <label for="a3"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a4" name="a">
+                    <label for="a4"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a5" name="a">
+                    <label for="a5"></label>
+                </td>
+               </tr>
+
+               <tr>
+                <td>I have learned new staff that I can apply on my work life.</td>
+                <td>
+                    <input type="radio" id="a1" name="a">
+                    <label for="a1"></label> 
+                </td>
+                <td>
+                    <input type="radio" id="a2" name="a">
+                    <label for="a2"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a3" name="a">
+                    <label for="a3"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a4" name="a">
+                    <label for="a4"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a5" name="a">
+                    <label for="a5"></label>
+                </td>
+               </tr>
+
+               <tr>
+                <td>I have enjoyed learning about the content provided.</td>
+                <td>
+                    <input type="radio" id="a1" name="a">
+                    <label for="a1"></label> 
+                </td>
+                <td>
+                    <input type="radio" id="a2" name="a">
+                    <label for="a2"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a3" name="a">
+                    <label for="a3"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a4" name="a">
+                    <label for="a4"></label>
+                </td>
+                <td>
+                    <input type="radio" id="a5" name="a">
+                    <label for="a5"></label>
+                </td>
+               </tr>
+            </table>
+           </section>
+
+          <section>
+            <p>Which things happened in the contest, please share below:</p>
+            <textarea placeholder="Type here..."></textarea>
+          </section>
+        </form> 
+
+        <button class="btn">Submit</button>
     </main>
 </body>
 </html>
